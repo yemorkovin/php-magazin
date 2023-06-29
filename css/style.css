@@ -1,0 +1,249 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+.show{
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  top: 200px;
+  left: 400px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 160%;
+
+}
+.row{
+	display: flex;
+	width: 70%;
+	margin: 10px auto;
+}
+.logo{
+	width: 200px;
+}
+ul.main_menu li{
+	display: inline-block;
+	margin: 15px;
+	font-weight: bolder;
+}
+.item{
+	margin: 30px 5px;
+}
+.w40{
+	width: 20%;
+}
+.w60{
+	width: 80%;
+}
+.main_menu{
+	margin-top: 40px;
+	margin-left: 20px;
+  z-index: 40;
+}
+.w30{
+  width: 33%;
+  text-align: center;
+  font-size: 140%;
+  font-weight: bolder;
+}
+.main_menu li a{
+	display: block;
+	width: 100%;
+	padding: 15px;
+	background: #1E90FF;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 130%;
+}
+.main_menu li a:hover{
+	color: orange;
+}
+.container {
+
+      margin: 0 auto;
+      overflow: hidden;
+      width: 70%;
+    }
+.main{
+  z-index: 10;
+  max-width: 800px;
+  margin: 10px auto;
+}
+    .itc-slider__items {
+      counter-reset: slide;
+    }
+
+    .itc-slider__item {
+      flex: 0 0 100%;
+      max-width: 800px;
+      counter-increment: slide;
+      height: 250px;
+      position: relative;
+    }
+
+    .itc-slider__item::before {
+      content: counter(slide) "/5";
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      color: #fff;
+      font-style: italic;
+      font-size: 32px;
+      font-weight: bold;
+      display: block;
+    }
+
+    .itc-slider__item:nth-child(1) {
+      background-color: #f44336;
+    }
+
+    .itc-slider__item:nth-child(2) {
+      background-color: #9c27b0;
+    }
+
+    .itc-slider__item:nth-child(3) {
+      background-color: #3f51b5;
+    }
+
+    .itc-slider__item:nth-child(4) {
+      background-color: #03a9f4;
+    }
+
+    .itc-slider__item:nth-child(5) {
+      background-color: #4caf50;
+    }
+
+ 
+ .catprod img{
+ 	width: 204px;
+ 	height: 204px;
+ }
+ .catprod:hover{
+ 	box-shadow: 4px 4px  6px #eee;
+ }
+ .catprod img{
+ 	text-align: center;
+ }
+  .catprod{
+  	width: 33%;
+  	min-height: 250px;
+  	margin: 10px;
+  	padding: 10px;
+  	border: 1px solid #eee;
+  }
+  .catprod p a{
+  	display: block;
+  	padding: 20px;
+  	background: #1E90FF;
+  	color: #fff;
+  	font-size: 120%;
+  	text-decoration: none;
+  	text-align: center;
+  }
+  .navbar{
+  	overflow: hidden;
+  	background: #333;
+  	position: fixed;
+  	top:0;
+  	width: 100%;
+  }
+  .btn{
+  background-color: #008000;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  }
+  .navbar a{
+  	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+  }
+   .navbar a:hover{
+   	background: #ddd;
+   	color: #000;
+   	z-index: 100;
+   }
+
+.center{
+  margin: 20px auto;
+  padding: 10px;
+}
+.footer{
+  width: 100%;
+  padding: 0px;
+  background-color: #000;
+  color: #fafafa;
+  text-align: center;
+}
+.footer .row .item p{
+  text-align: center;
+}
+
+.item-75{
+  width: 75%;
+  float: left;
+  margin-top: 6px;
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.item-25{
+  float: left;
+  margin-top: 6px;
+  width: 25%;
+}
+input[type=text], textarea, input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+label{
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input[type=submit]{
+  background-color: #04aa6d;
+  color: #fff;;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+input[type=submit]:hover{
+  background-color: #45a049;
+}
+.container{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+ul.cat_menu li{
+  display: inline-block;
+  padding: 5px;
+font-size: 120%;
+}
+ul.cat_menu li a{
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+ul.cat_menu li a:hover{
+  color: #444;
+}
